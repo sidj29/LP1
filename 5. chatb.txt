@@ -1,0 +1,25 @@
+def greet():
+    print("Hello! Welcome to our customer service. How can I assist you today?")
+
+def get_customer_name():
+    name = input("Please enter your name: ")
+    return name
+
+def respond_to_customer(name):
+    print(f"Hello, {name}! How can I help you?")
+
+def get_customer_name():
+    name = input(": ")
+    return name
+
+def respond_to_customer(name):
+    print(f"Hello, {name}! How can I help you?")
+
+
+def chatbot():
+    greet()
+    name = get_customer_name()
+    respond_to_customer(name)
+
+if __name__ == "__main__":
+    chatbot()
